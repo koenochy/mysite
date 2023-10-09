@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+body{
+background-color: #eee;
+}
+
+a:hover {
+  color: orange;
+}
+
+header{
+height: 70px;
+width: 80%;
+margin-left: 10%;
+padding-top: 20px;
+background-color: #fff;
+}
+
+header ul{
+list-style: none;
+display: flex;
+}
+
+header li{
+padding: 0 0 0 10%;
+}
+
+header a{
+font-size: 24px;
+}
+
+#mainvisual img{
+width: 100%;
+}
+
+/*メイン*/
+main{
+margin: 0 auto;
+width: 80%;
+text-align: center;
+background-color: #fff;
+}
+
+main h1{
+font-size: 40px;
+padding: 24px 0 0 0;
+}
+
+.items ul{
+display: flex;
+gap: 10px;
+}
+
+.items ul li{
+flex: 1;
+}  
+
+main h2{
+text-align: left;
+padding-left: 5vw;
+font-size: 32px;
+margin: 48px 0 0 0;
+border-bottom: 2px solid black;
+}
+
+
+.sec-items{
+margin: 12px 0 0 0; 
+}
+
+.sec-items h3{
+padding: 6px 0;
+font-size: 24px;
+background-color: #ccc;
+}
+
+.sec-items ul{
+display: block;
+}
+
+.sec-items ul li{
+margin: 24px 0 0 0; 
+font-size: 18px;
+}
+
+.sec-items .list{
+margin: 40px 0 0 0; 
+font-size: 20px;
+}
+
+main button{
+margin: 60px 0 0 0; 
+padding: 10px;
+border: 2px solid black;
+border-radius: 8px;
+}
+
+main .items:last-child{
+padding-bottom: 48px;
+}
+
+footer p{
+padding-top: 36px;
+height: 100px;
+text-align: center;
+background-color: #fff;
+border: 1px solid black;
+}
